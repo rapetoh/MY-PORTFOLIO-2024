@@ -1,5 +1,5 @@
 const textElement = document.getElementById("typing-effect");
-const text = "Your dynamic text here...";
+const text = "I Make your business more profitable with code...";
 let index = 0;
 
 function typeText() {
