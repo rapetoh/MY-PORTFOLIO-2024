@@ -7,6 +7,15 @@
   }
 }
 
+#typing-effect {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5em;
+  border-right: 2px solid black; /* Simulates a cursor */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
