@@ -7,7 +7,16 @@
   }
 }
 
+.reveal {
+  opacity: 0;              /* Hidden by default */
+  transform: translateY(20px); /* Slightly pushed down */
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
 
+.reveal.active {
+  opacity: 1;              /* Fully visible */
+  transform: translateY(0); /* Move to original position */
+}
 
 
 :root {
